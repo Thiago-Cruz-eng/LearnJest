@@ -4,7 +4,7 @@ export interface CustumerOrder {
 }
 
 export interface IndividualCustomerProtocol {
-  firtName: string;
+  firstName: string;
   lastName: string;
   cpf: string;
 }
