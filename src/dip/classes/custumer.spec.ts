@@ -17,7 +17,7 @@ const createEntrepriseCustumer = (
 describe('EnterpriseCustomer', () => {
   afterEach(() => jest.clearAllMocks());
 
-  it('should have firstName, lastName e cpf ', () => {
+  it(' should I have methods to get name and idn ', () => {
     //System under test
     const sut = createEntrepriseCustumer('Thiago', '456.465.465-45');
     expect(sut).toHaveProperty('name', 'Thiago');
@@ -44,7 +44,7 @@ describe('EnterpriseCustomer', () => {
       expect(sut).toHaveProperty('firstName', 'Thiago');
     });
 
-    it('should I have methods to get name and idn ', () => {
+    it('should have firstName, lastName e cpf', () => {
       //System under test
       const sut = createIndividualCustomer(
         'Thiago',
